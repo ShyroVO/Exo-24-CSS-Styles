@@ -1,1 +1,57 @@
 
+    body {
+        font-family: Verdana, Arial, sans-serif;
+        background-color: white;
+    }
+
+    h1, h2, h3 {
+        font-family: Arial, sans-serif;
+    }
+
+
+/* Tableau */
+
+    th {
+        font-variant: small-caps;
+        text-decoration: underline;
+    }
+
+    .produit {
+        font-style: italic;
+        color: coral;
+    }
+
+    .reference {
+        font-style: italic;
+        color: black;
+        background-color: grey;
+    }
+
+    .general {
+        font-weight: bold;
+        color: blue;
+        text-decoration: underline blue ;
+    }
+
+/* Divs */
+    #divUn h3 {
+        color: red;
+        text-transform: uppercase;
+    }
+
+    #divTrois {
+        font-size: small;
+        background-color: #C0C0C0;
+    }
+
+
+/* Autres */
+    blockquote p::first-letter {
+        color: lawngreen;
+        font-weight: bold;
+        font-family: fantasy;
+    }
+
+    blockquote p {
+        text-indent: 20px;
+    }
